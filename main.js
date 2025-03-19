@@ -20,7 +20,7 @@ function updatevalue() {
   if (currency1 != currency2) {
     convert(currency1, currency2, value);
   } else {
-    alert("Choose Diffrent Currency");
+    alert("Choose Different Currency");
   }
 }
 function convert(currency1, currency2, value) {
